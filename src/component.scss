@@ -1,0 +1,45 @@
+$primary-color: #05197f;
+$secondary-color: #2e840b;
+
+.author {
+    box-shadow: 3px 3px 5px 6px #e1e1e1;
+
+    .author__name {
+        font-weight: 700;
+        font-size: 17px;
+    }
+
+    .author__btn {
+        border: 1px solid $primary-color;
+        color: $primary-color;
+        padding: 0.5em 1em;
+        text-decoration: none;
+
+        &:hover {
+            border: 1px solid $secondary-color;
+            color: $secondary-color;
+
+        }
+    }
+}
+
+.breadcrumb {
+    a {
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
+
+.detail {
+    box-shadow: 3px 3px 5px 6px #e1e1e1;
+    .detail__name,
+    .detail__email,
+    .detail__company {
+        span {
+            font-weight: 700;
+            color: $primary-color;
+        }
+    }
+
+    
+}
